@@ -47,6 +47,7 @@ def idft2d(spectrum):
 
 def fft_shift(spectrum):
     # the fast fourier transform moving the corner frequencies in the middle of the spectrum
+    # centres the spectrum around the origin
 
     H, W = spectrum.shape
 
